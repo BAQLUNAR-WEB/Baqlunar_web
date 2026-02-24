@@ -173,11 +173,29 @@ footer {
     bottom: 20px;
     padding: 15px;
     border-radius: 50%;
-    font-size: 24px;
+    font-size: 28px;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     box-shadow: 0 0 10px #ff4e00;
-    color: white;
     transition: 0.3s;
+    color: white;
+}
+
+.whatsapp {
+    right: 20px;
+    background-color: #25D366;
+}
+
+.instagram {
+    right: 80px;
+    background-color: #E1306C;
+}
+
+.whatsapp:hover, .instagram:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 25px #ff4e00;
 }
 
 .whatsapp {
@@ -264,9 +282,15 @@ footer {
 </footer>
 
 <!-- Botones flotantes -->
-<a class="whatsapp" href="https://wa.me/573054568863" target="_blank">W</a>
-<a class="instagram" href="https://www.instagram.com/baqlunar?igsh=MWNmcnpqM3VnajNlbg%3D%3D&utm_source=qr" target="_blank">I</a>
+<a class="whatsapp" href="https://wa.me/573054568863" target="_blank">
+  <img src="img/whatsapp.png" alt="WhatsApp" width="50">
+</a>
+
+<a class="instagram" href="https://www.instagram.com/baqlunar" target="_blank">
+  <img src="img/instagram.png" alt="Instagram" width="50">
+</a>
 
 </body>
 
 </html>
+
